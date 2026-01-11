@@ -4,10 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-# quaero_shared = { git = "https://github.com/quaero-search/quaero" }
+quaero_shared = { git = "https://github.com/quaero-search/quaero" }
+query_parameters = "0.1.0"
 # Local development.
-quaero_shared = { path = "../quaero/crates/quaero_shared" }
-query_parameters = { path = "../query_parameters" }
+# quaero_shared = { path = "../quaero/crates/quaero_shared" }
+# query_parameters = { path = "../query_parameters" }
 
 chrono = "0.4.42"
 phf = { version = "0.13.1", features = ["macros"] }
